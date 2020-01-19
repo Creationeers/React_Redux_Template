@@ -1,0 +1,16 @@
+@media (min-width: 1025px){
+.card-hover-zoom {
+    overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+  }
+  
+  /* [2] Transition property for smooth transformation of images */
+  .card-hover-zoom {
+    transition: transform .5s ease;
+  }
+  
+  /* [3] Finally, transforming the image when container gets hovered */
+  .card-hover-zoom:hover {
+    transform: scale(1.1);
+    border-color: #6AB9DB;
+  }
+}
